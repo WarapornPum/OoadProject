@@ -1,0 +1,82 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Pizza shop : Orderlist</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+			<div id="header"> <!-- start of header -->
+		<span class="signboard"></span>
+
+		<ul id="infos">
+			<li class="home"> 
+				<a href="index.html">HOME</a> 
+			</li>
+			<li class="phone">
+				<a href="contact.html">008 693 0129 000</a> 
+			</li>
+			<li class="address">
+				<a href="contact.html">815-A PRAESENT PRETIUM VENENATIS EGET PORT 0000</a> 
+			</li>
+		</ul>
+
+		<a href="index.html" id="logo"></a>
+		<ul id="navigation">
+			<li><a href="entree.html"><span>Entree</span></a></li>
+			<li class="main"><a href="menu.html"><span>Main Course</span></a></li>
+			<li><a href="desserts.html"><span>Desserts</span></a></li>
+			<li class="current"><a href="drinks.html"><span>Drinks</span></a></li>
+		</ul> <!-- /#navigation -->
+	</div> <!-- end of header -->
+	<div id="contents"> <!-- start of contents --> 
+		<h2><span>Drinks</span></h2>
+		<div id="menus">
+			<table class="table">
+					<thead>
+						<tr>
+							<th>วันเวลา</th>
+							<th>เลขที่สั่งซื้อ</th>
+							<th>จำนวนรายการอาหาร</th>
+							<th>ราคาขาย</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="table-primary">
+							<td>1111</td>
+							<td>ลลิตา</td>
+							<td>แหล่งสนาม</td>
+							<td>20</td>
+						</tr>
+						<tr class="table-success">
+							<td>2222</td>
+							<td>อรรคพล</td>
+							<td>หอยสังข์ทอง</td>
+							<td>20</td>
+						</tr>
+						<tr class="table-danger">
+							<td>3333</td>
+							<td>วราภรณ์</td>
+							<td>พ่วงพงษ์</td>
+							<td>20</td>
+					</tbody>
+				</table>
+			
+		</div>
+	</div> <!-- end of contents -->
+			
+		<div>
+			<ul class="navigation">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="booking.html">Book an event</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="last"><a href="contact.html">Contact</a></li>
+			</ul>
+			<span>&copy; Copyright 2012. All Rights Reserved.</span>
+		</div>
+	</div> <!-- end of footer -->
+</body>
+</html>

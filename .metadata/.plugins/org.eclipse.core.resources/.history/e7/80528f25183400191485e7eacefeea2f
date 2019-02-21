@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="padding-top: 170px;padding-left: 170px;padding-bottom: 50px;">
+<div  style="background:url(/PizzaOrderSystem/images/bg-1.jpg) no-repeat;width: 960px;height: 590px;"> 
+		
+</div> 
+
+</body>
+</html>

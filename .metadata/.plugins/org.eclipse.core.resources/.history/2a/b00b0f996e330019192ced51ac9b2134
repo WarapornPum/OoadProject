@@ -1,0 +1,110 @@
+<%@ page language="java" contentType="text/html; UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Pizza Shop - Member</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="header"> <!-- start of header -->
+		<span class="signboard"></span>
+
+		<ul id="infos">
+			<li class="home"> 
+				<a href="Home.jsp">HOME</a> 
+			</li>
+		</ul>
+
+		<a href="index.html" id="logo"></a>
+		<ul id="navigation">
+			<li><a href="Employee.jsp"><span>Employee</span></a></li>
+			<li class="main"><a href="Menu.jsp"><span>Manu&Order</span></a></li>
+			<li class="current"><a href="Member.jsp"><span>Member</span></a></li>
+			<li><a href="drinks.html"><span>Orderlist</span></a></li>
+		</ul> <!-- /#navigation -->
+	</div> <!-- end of header -->
+	
+	<div id="contents"> <!-- start of contents --> 
+		<div id="menus">
+			<div class="container">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Memberid</th>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Age</th>
+							<th>Brithday</th>
+							<th>Address</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="table-primary">
+							<td>1111</td>
+							<td>ลลิตา</td>
+							<td>แหล่งสนาม</td>
+							<td>20</td>
+							<td>14 มกราคม 2542</td>
+							<td>104/2 ซอยสุขสวัสดิ์</td>
+						</tr>
+						<tr class="table-success">
+							<td>2222</td>
+							<td>อรรคพล</td>
+							<td>หอยสังข์ทอง</td>
+							<td>20</td>
+							<td>19 ธันวาคม 2541</td>
+							<td>23/5 ซอยเจริญกรุง</td>
+						</tr>
+						<tr class="table-danger">
+							<td>3333</td>
+							<td>วราภาณ์</td>
+							<td>พ่วงพงษ์</td>
+							<td>20</td>
+							<td>7 กุมภาพันธ์ 2541</td>
+							<td>55/5 ซอยประชาอุทิศ</td>
+					</tbody>
+				</table>
+				<table class="table">
+  <caption>List of users</caption>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-danger">
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+			</div>
+		</div>
+	</div> <!-- end of contents -->
+</body>
+</html>

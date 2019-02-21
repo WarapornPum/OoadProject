@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Pizza shop : Orderlist</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+			<table class="table">
+					<thead>
+						<tr>
+							<th>Memberid</th>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Age</th>
+							<th>Brithday</th>
+							<th>Address</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="table-primary">
+							<td>1111</td>
+							<td>ลลิตา</td>
+							<td>แหล่งสนาม</td>
+							<td>20</td>
+							<td>14 มกราคม 2542</td>
+							<td>525/3 ซ.สุขสวัสดิ์14 ถ.สุขสวัสดิ์ แขวงบางมด เขตจอมทอง กทม.10150</td>
+						</tr>
+						<tr class="table-success">
+							<td>2222</td>
+							<td>อรรคพล</td>
+							<td>หอยสังข์ทอง</td>
+							<td>20</td>
+							<td>19 ธันวาคม 2541</td>
+							<td>171 อ่อนนุช 41 ถนนอ่อนนุช เขตสวนหลวง แขวง สวนหลวง กทม 10250</td>
+						</tr>
+						<tr class="table-danger">
+							<td>3333</td>
+							<td>วราภรณ์</td>
+							<td>พ่วงพงษ์</td>
+							<td>20</td>
+							<td>7 กุมภาพันธ์ 2541</td>
+							<td></td>
+					</tbody>
+				</table>
+
+</body>
+</html>

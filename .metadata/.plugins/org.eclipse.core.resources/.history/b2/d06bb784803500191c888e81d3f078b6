@@ -1,0 +1,8 @@
+
+public class home {
+	private int num;
+	
+	public static int getInt(){
+		return this.num;
+	}
+}
